@@ -4,6 +4,16 @@ Backend-
 El API REST de esta plataforma esta construido bajo la plataforma nodejs.
 Se usa express como framwork.
 
+# Enviar pull Request
+Pasos para enviar tu pull request:
+
+- Hacer un fork del proyecto
+- Estando el proyecto en tu repositorio realizar una clonacion git clone htpps//..... 
+- Revisar (grupo de slack) con el equipo que funcionalidad hay que añadir, mejorar o resover un error
+- Implementar mejoras en tu repositorio local
+- Bajarse los cambios del repo original
+- Enviar push a tu proyecto forked 
+- Solictar un merge al proyecto original
 
 # Normas de contribución
 - Uso de EMAC6
@@ -22,7 +32,7 @@ Se usa express como framwork.
 - Nombres de variables con sentido
     ```js
         let cuentaAhorros = 0; (si)
-        let cA (no)
+        let cA = 0 ; (no)
     ```
     los nombres como i, j, k dentro de bucles for, while
     al ser conocidos por la comunidad de desarrolladores pueden seguirse usando
