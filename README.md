@@ -10,7 +10,7 @@ Se usa express como framwork.
 - Solo se hace uso de 1 clase por archivo
 - Maximo de lineas de una clase es de 500 lineas
 - Los metodos llevan nombres de verbos
-    `js 
+    ```js 
         move(){
             //code
         }
@@ -18,33 +18,33 @@ Se usa express como framwork.
         createListPeoples(){
             //code
         }
-    `
+    ```
 - Nombres de variables con sentido
-    `js
+    ```js
         let cuentaAhorros = 0; (si)
         let cA (no)
-    `
+    ```
     los nombres como i, j, k dentro de bucles for, while
     al ser conocidos por la comunidad de desarrolladores pueden seguirse usando
 
 - despues de cada expresion debe agregar el -> ;
 - para exportar clases o modulos se definen al final del archivo
 
-    `js
+    ```js
         class People{ /*code*/}
         module.export = {
             People:People
         }
-    `
+    ```
 - las clases deben usar CamelCase, los metodos y variables deben usar LowerCase
-    `js
+    ```js
         class Book{
             getListBooks(){
                 let counterBooks = 0;
             }
         }
 
-    `
+    ```
 
 
 
