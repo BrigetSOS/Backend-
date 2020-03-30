@@ -15,6 +15,8 @@ Pasos para enviar tu pull request:
 - Enviar push a tu proyecto forked 
 - Solictar un merge al proyecto original
 
+Revisa aqui como hacerlo con git [CONTRIBUTING.md]()
+
 # Normas de contribución
 - Uso de el estandar EMAC6 + 
 - Solo se hace uso de 1 clase por archivo
