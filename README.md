@@ -37,7 +37,7 @@ Pasos para enviar tu pull request:
     los nombres como i, j, k dentro de bucles for, while
     al ser conocidos por la comunidad de desarrolladores pueden seguirse usando
 
-- despues de cada expresion debe agregar el -> ;
+- despues de cada expresion debe agregar el punto y coma ";"
 - para exportar clases o modulos se definen al final del archivo
 
     ```js
