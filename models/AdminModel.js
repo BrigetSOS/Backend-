@@ -1,0 +1,10 @@
+class AdminModel{
+    constructor(){
+
+    }
+
+    getDataAdmin(){
+
+    }
+
+}
