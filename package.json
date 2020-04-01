@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "TOKEN=secret node ./bin/www",
-    "test": "mocha test/*.js --timeout 15000"
+    "start": "node ./bin/www",
+    "test": "mocha"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
     "express": "~4.16.1",
     "jsonwebtoken": "^8.5.1",
     "morgan": "~1.9.1",
