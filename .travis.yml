@@ -1,2 +1,12 @@
 languaje: node_js
 nodejs: 12.13.0
+
+addons:
+  sonarcloud:
+    organization: "crisan97"
+    token:
+      secure: "27780e5708a7f5e2d53d99867923311cdfca4573" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
