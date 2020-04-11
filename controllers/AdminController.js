@@ -5,7 +5,8 @@ class AdminController {
 
     constructor(data){
         this.admin =  new Admin();
-        this.admin.setData(data);
+        if(data != undefined)
+            this.admin.setData(data);        
     }
 
     async createAdmin(){
@@ -18,6 +19,10 @@ class AdminController {
 
     editAdmin(){
         return this.admin.edit();
+    }
+
+    async getAdminList(){
+        return await this.admin.getAdminList();
     }
 
     validate(){
