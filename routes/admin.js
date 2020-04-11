@@ -5,24 +5,11 @@ let db = new Database();
 
 router =  express.Router();
 
-async function getListAdmins(){
-    let result;
-    try {
-     result= await db.queryCommand('select * from gentem.admin;')
-    console.log(result); 
-    } catch (error) {
-        console.log(error);
-    }
-    return result;
-}
 
 router.get('/list', async function(req, res){
-    console.log(process.env.USERNAME);
-    db.getConection();
-    db.createDatabase();
-    data = await getListAdmins();
-    console.log("enviado");
-    res.json({result: data});
+    let admin = new AdminController();
+    const adminsList = await admin.getAdminList();
+    res.json({result: adminsList});
 });
 
 router.post("/create", async function(req, res){

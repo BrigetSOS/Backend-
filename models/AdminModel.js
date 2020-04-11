@@ -9,10 +9,14 @@ class AdminModel{
     }
 
     async create(){
-     let result = await this.database.queryCommand(`INSERT INTO gentem.admin (name, email)
+     const result = await this.database.queryCommand(`INSERT INTO gentem.admin (name, email)
         values ("${this.name}", "${this.email}")`);
 
         return result['affectedRows'] == 1 ? 'created' :  'not-created';
+    }
+
+    async getAdminList(){
+        return await this.database.queryCommand('SELECT * FROM  gentem.admin');
     }
     
     getDataAdmin(commandSQL){
