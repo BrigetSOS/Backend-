@@ -1,63 +1,18 @@
-# Backend-
-Backend-
+# Gentem Backend-
 
-El API REST de esta plataforma esta construido bajo la plataforma nodejs.
-Se usa express como framwork.
+Este repositorio hace parte de una aplicación web, cuyo objetivo es bridar a la 
+comunidad una aplicación donde se puedan realizar donaciones a las ONGs mas cercanas
+de su ciudad, barrio, comunidad, para que ayuden de forma transparente a las personas 
+vulnerables en la crisis que vive nuestra sociedad por el COVID-19.
 
-# Enviar pull Request
-Pasos para enviar tu pull request:
+Este es el backend de la aplicación, construido bajo el lenguaje Javascript
+sobre la plataforma Nodejs y Mysql como base de datos.
 
-- Hacer un fork del proyecto
-- Estando el proyecto en tu repositorio realizar una clonacion git clone htpps//..... 
-- Revisar (grupo de slack) con el equipo que funcionalidad hay que añadir, mejorar o resover un error
-- Implementar mejoras en tu repositorio local
-- Bajarse los cambios del repo original
-- Enviar push a tu proyecto forked 
-- Solictar un merge al proyecto original
+## BUILD 
+- Para ejecutar la aplicacion lee aqui: [BUILD](https://github.com/crisan97/Backend-/blob/developer/BUILD.md)
 
-Revisa aqui como hacerlo con git [CONTRIBUTING.md]()
-
-# Normas de contribución
-- Uso de el estandar EMAC6 + 
-- Solo se hace uso de 1 clase por archivo
-- Maximo de lineas de una clase es de 500 lineas
-- Los metodos llevan nombres de verbos que tengan sentido
-    ```js 
-        move(){
-            //code
-        }
-
-        createListPeoples(){
-            //code
-        }
-    ```
-- Nombres de variables con sentido
-    ```js
-        let cuentaAhorros = 0; (si)
-        let ca = 0 ; (no)
-    ```
-    los nombres como i, j, k dentro de bucles for, while
-    al ser conocidos por la comunidad de desarrolladores pueden seguirse usando
-
-- despues de cada expresion debe agregar el punto y coma ";"
-- para exportar clases o modulos se definen al final del archivo
-
-    ```js
-        class People{ /*code*/}
-        module.export = {
-            People:People
-        }
-    ```
-- las clases deben usar CamelCase, los metodos y variables deben usar LowerCase
-    ```js
-        class Book{
-            getListBooks(){
-                let counterBooks = 0;
-            }
-        }
-
-    ```
-
+## CONTRIBUTING
+- Si quieres saber la forma de contribuir lee aqui: [CONTRIBUTING](https://github.com/crisan97/Backend-/blob/developer/CONTRIBUTING.md)
 
 
 
