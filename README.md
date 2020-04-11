@@ -8,8 +8,11 @@ vulnerables en la crisis que vive nuestra sociedad por el COVID-19.
 Este es el backend de la aplicación, construido bajo el lenguaje Javascript
 sobre la plataforma Nodejs y Mysql como base de datos.
 
-Si quieres ejecutar la aplicacion lee aqui: [BUILD]()
-Si quieres saber la forma de contribuir lee aqui: [CONTRIBUTING]()
+## BUILD 
+- Para ejecutar la aplicacion lee aqui: [BUILD](https://github.com/crisan97/Backend-/blob/developer/BUILD.md)
+
+## CONTRIBUTING
+- Si quieres saber la forma de contribuir lee aqui: [CONTRIBUTING](https://github.com/crisan97/Backend-/blob/developer/CONTRIBUTING.md)
 
 
 

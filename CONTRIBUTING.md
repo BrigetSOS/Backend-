@@ -23,22 +23,22 @@ caracteristica, luego de hacer el merge a Developer y enviar los cambios.
 ## Flujo en Git por primera vez
 
 - Hacer un fork del repositorio que deseas de Gentem
-- Hacer un git clone <url> del repositorio al cual le hizo el fork
-- git add <files>,  añades los archivos modificados al staging, para hacer el commit
+- Hacer un git clone `url` del repositorio al cual le hizo el fork
+- git add `files`,  añades los archivos modificados al staging, para hacer el commit
 - git commit -m "mensaje en base a las modificaciones", realizas el commit
-- git push origin <branch>, envias los cambios a tu repositorio de github
+- git push origin `branch`, envias los cambios a tu repositorio de github
 - desde github, envias el pull request.
 
 ## Flujo en Git
 Al ser varios desarrolladores trabajando en conjunto, hay que saber que la rama developer estara con constantes cambios, enviaran muchos pull request, por esta razon se debe actualizar el repositorio local y el de github antes de enviar sus pulls request, sino no actualiza su repositorio antes de enviar sus cambios, el codigo que estaba en el repositorio base sera borrado, genera conflitos, se perderan commits, por eso es importante hacerlo.
 
-- Hacer un git remote add upstream <url>, permite que se realize una 
+- Hacer un git remote add upstream `url`, permite que se realize una 
   actualización del repositorio del cual hemos hecho el fork.
 - git fetch upstream, traemos todas las ramas que haya en el proyecto base
-- git checkout <branch> se mueve a la rama deseada (Master, Producción, Developer)
-- git rebase upstream/<branch>, actualiza el repositorio local en la rama, con todos 
+- git checkout `branch` se mueve a la rama deseada (Master, Producción, Developer)
+- git rebase upstream/`branch`, actualiza el repositorio local en la rama, con todos 
     los commits, del repositorio base.
-- git push -f origin <branch>, envia los cambios a nuestro repositorio en github
+- git push -f origin `branch`, envia los cambios a nuestro repositorio en github
 
 estos pasos deben de hacerce antes de que escriba una sola linea de codigo y los añada al staging de git, luego de tener su repositorio actualizado, puede comenzar a trabajar
 
