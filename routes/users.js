@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-let  JsonWebToken = require('./../infrastructure/JsonWebToken').JsonWebToken;
+let  JsonWebToken = require('./../controllers/JsonWebToken').JsonWebToken;
 
 let jwt = new JsonWebToken();
 

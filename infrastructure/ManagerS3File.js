@@ -22,3 +22,7 @@ class ManagerS3File{
 
 
 }
+
+module.exports = {
+    ManagerS3File: ManagerS3File
+};  
