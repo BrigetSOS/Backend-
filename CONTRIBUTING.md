@@ -1,4 +1,4 @@
-# Flujo de trabajo en los repositorios de codigo fuente de Gentem
+# Flujo de trabajo en los repositorios de codigo fuente de CIE
 
 ## Acerca de las ramas
 La forma en como trabajamos para los repositorios de github es la siguiente:
