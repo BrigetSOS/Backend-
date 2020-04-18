@@ -9,6 +9,8 @@ var usersRouter = require('./routes/users');
 var adminRouter = require('./routes/admin');
 
 var app = express();
+
+
 dotenv.config();
 
 function cors(req, res, next){
