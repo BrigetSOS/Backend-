@@ -16,10 +16,10 @@ Pasos para enviar tu pull request:
 - Solictar un merge al proyecto original
 
 # Normas de contribución
-- Uso de EMAC6
+- Uso de el estandar EMAC6 + 
 - Solo se hace uso de 1 clase por archivo
 - Maximo de lineas de una clase es de 500 lineas
-- Los metodos llevan nombres de verbos
+- Los metodos llevan nombres de verbos que tengan sentido
     ```js 
         move(){
             //code
@@ -32,12 +32,12 @@ Pasos para enviar tu pull request:
 - Nombres de variables con sentido
     ```js
         let cuentaAhorros = 0; (si)
-        let cA = 0 ; (no)
+        let ca = 0 ; (no)
     ```
     los nombres como i, j, k dentro de bucles for, while
     al ser conocidos por la comunidad de desarrolladores pueden seguirse usando
 
-- despues de cada expresion debe agregar el -> ;
+- despues de cada expresion debe agregar el punto y coma ";"
 - para exportar clases o modulos se definen al final del archivo
 
     ```js
